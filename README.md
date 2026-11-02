@@ -37,12 +37,13 @@ and instructions for checking completion and file integrity.
   reproduction instructions.
 - `results/`: six recorded certificate outputs from the completed runs of
   October 31, 2026.
-- `SHA256SUMS`: checksums of the original verification archive's files.
+- `SHA256SUMS`: checksums of the verification programs, detailed instructions,
+  and recorded outputs in this repository.
 - `README.txt`: the original archive note.
 
-The original source files and recorded outputs are preserved unchanged.
-The checksums cover the original archive contents; they do not cover this
-repository README or `.gitignore`.
+The verification programs and recorded certificate values are those supplied
+with the paper. `SHA256SUMS` identifies the listed repository files; it does
+not cover this repository README or `.gitignore`.
 
 `svp_global_upper.py` is included for the shared functions imported by the
 other verifiers. Its optional standalone mode requires a candidate JSON file
